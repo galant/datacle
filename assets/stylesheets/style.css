@@ -17,3 +17,12 @@ body {
   .lead strong {
     font-size: 30px;
     color: #384167; }
+
+ol {
+  font-family: "helvetica", sans-serif;
+  font-size: 1.35em; }
+
+.tutorial {
+  background: #f6f7f8; }
+  .tutorial h2 {
+    color: #384167; }
