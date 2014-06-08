@@ -1,7 +1,7 @@
 Datacle
 =======
 
-Data tags that journalists can easily use to make articles more relevant for their readers. 
+**An easy way for journalists to make their articles more relevant to mobile readers using data.**
 
 What if all news really was local? Journalists can drop datacle tags into their articles that will display data from databases based on characteristics of the reader. For example, in article about a congressional bill can tell the reader how their congressperson voted. 
 
