@@ -5,3 +5,15 @@ body {
 .jumbotron {
   background: #383938;
   color: #f6f7f8; }
+  .jumbotron p {
+    font-size: 26px; }
+
+.lead {
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 36px;
+  color: #383938; }
+  .lead strong {
+    font-size: 30px;
+    color: #384167; }
