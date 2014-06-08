@@ -11,7 +11,7 @@ What if all news really was local? Journalists can drop datacle tags into their 
 Here's how a journalist can use it:
 
 1. Install our javascript
-             <script src="http://reported.today/js/datacle.js"></script>
+    `<script src="http://reported.today/js/datacle.js"></script>`
 2. Select a database
 
 3. Put datacle tags in your stories
