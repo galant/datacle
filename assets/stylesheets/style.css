@@ -26,3 +26,6 @@ ol {
   background: #f6f7f8; }
   .tutorial h2 {
     color: #384167; }
+
+.img-responsive {
+  width: 100%; }
