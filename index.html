@@ -13,27 +13,64 @@
 
         <link href="assets/stylesheets/bootstrap.css" rel="stylesheet">
         <link href="assets/stylesheets/style.css" rel="stylesheet">
+
+
+    TODO
+        add typekit
+        add favicon
     </head>
 
     <body>
-        <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
             <div class="container">
-                <div class="col-sm-6 col-sm-offset-3">
-                    <h1>
-                    <img src="assets/images/datacle-logo.svg" class="img-responsive" />
-                    </h1>
-                    <br />
-                    <p>Datacle is an easy way for journalists to make their articles more relevant to mobile readers using data.</p>
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <center>
+                        <h1>
+                        <img src="assets/images/datacle-logo.svg" class="img-responsive" />
+                        </h1>
+                        <br />
+                        <p>Datacle is an easy way for journalists to make their articles more relevant to mobile readers using data.</p>
+                    </center>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-md-8 col-md-offset-2">
                 <p class="lead">
                     What if all news really was local? Journalists can drop datacle tags into their articles that will display data from databases based on characteristics of the reader. For example, in article about a congressional bill can tell the reader how their congressperson voted. 
                 </p>
+            </div>
+        </div>
+
+
+
+        GIF
+
+
+
+
+
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+                <h2>Here's how a journalist can use it:</h2>
+
+                <ol>
+                    <li>
+                        Install our javascript
+                        <code>
+                    &lt;script src=&quot;http://reported.today/js/datacle.js&quot;&gt;&lt;/script&gt;
+                        </code>
+                    </li>
+                    <li>
+                        Select a database, connect to Google Spreadsheets, or upload a .csv
+                    </li>
+                    <li>
+                        Put datacle tags in your stories
+                        <br />
+                        Write the tag in this format: <code>{{ query.databasename.fieldname }}</code>
+                    </li>
+                </ol>
             </div>
             <div class="clearfix"></div>
 
